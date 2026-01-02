@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Paineni Sai Dinesh</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Dinesh</span><br> Web Designer</h1>
+
+                    <!-- <a href="#" class="button">Contact</a> -->
+                </div>
+
+                <div class="home__social">
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
+                    <div class="home__social">
+                    <a href="www.linkedin.com/in/paineni-sai-dinesh-9aa62523a"
+                        target="_blank"
+                        class="home__social-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+
+                    <!-- <a href="https://www.behance.net/your-behance-username"
+                        target="_blank"
+                        class="home__social-icon">
+                        <i class='bx bxl-behance'></i>
+                    </a> -->
+
+                    <a href="https://github.com/Enablefist"
+                        target="_blank"
+                        class="home__social-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Dinesh</h2>
+                        <p class="about__text">PEGA Developer with 2+ years of experience in PEGA Smart Investigation (SI) applications within the banking and payments domain. Strong expertise in exception handling, CBPR+ and PACS message investigations, and REST API integrations. Proven ability to automate workflows, reduce manual intervention, and deliver high-quality solutions within tight deadlines. Exposure to Microsoft Azure and prior experience in Java full-stack development</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/pega.png" alt="PEGA" class="skills__icon pega-icon">
+                                <span class="skills__name pega-text">pega</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">10%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section> -->
+            <div class="skills__container bd-grid" id="skills">          
+  <div>
+    <h2 class="skills__subtitle">Professional Skills </h2>
+    <p class="skills__text">
+      Technologies and tools I have worked with in enterprise and web development projects.
+    </p>
+
+    <!-- Programming -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-code-alt skills__icon'></i>
+        <span class="skills__name">Programming</span>
+      </div>
+      <p class="skills__detail">Java, SQL, JavaScript</p>
+    </div>
+
+    <!-- Frameworks -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-layer skills__icon'></i>
+        <span class="skills__name">Frameworks</span>
+      </div>
+      <p class="skills__detail">Spring Boot</p>
+    </div>
+
+    <!-- Software Platforms -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <img src="assets/img/pega.png" alt="PEGA" class="skills__icon pega-icon">
+        <span class="skills__name">Software Platforms</span>
+      </div>
+      <p class="skills__detail">
+        PEGA PRPC, Smart Investigation (SI), Case Management
+      </p>
+    </div>
+
+    <!-- Cloud & DevOps -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-cloud skills__icon'></i>
+        <span class="skills__name">Cloud & DevOps</span>
+      </div>
+      <p class="skills__detail">
+        Microsoft Azure, AWS (Basic Exposure)
+      </p>
+    </div>
+
+    <!-- Database -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-data skills__icon'></i>
+        <span class="skills__name">Database</span>
+      </div>
+      <p class="skills__detail">MySQL</p>
+    </div>
+
+    <!-- Tools -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-wrench skills__icon'></i>
+        <span class="skills__name">Tools</span>
+      </div>
+      <p class="skills__detail">Git, Postman</p>
+    </div>
+
+    <!-- Methodologies -->
+    <div class="skills__data">
+      <div class="skills__names">
+        <i class='bx bx-refresh skills__icon'></i>
+        <span class="skills__name">Methodologies</span>
+      </div>
+      <p class="skills__detail">Agile, Scrum, CI/CD</p>
+    </div>
+
+  </div>
+
+  <div>              
+    <img src="assets/img/work3.jpg" alt="Skills" class="skills__img">
+  </div>
+</div>
+
+            <!-- <section class="experience section" id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+
+  <div class="experience__container bd-grid">
+
+    <div class="experience__item">
+      <h3 class="experience__role">Web Developer Intern</h3>
+      <p class="experience__company">Cognizant</p>
+       <p class="experience__duration">Jan 2024 – Jun 2024</p> 
+      <p class="experience__description">
+        Worked on developing responsive web pages and implemented
+        CRUD functionality for internal applications using
+        HTML, CSS, and JavaScript.
+      </p>
+    </div>
+
+    <div class="experience__item">
+      <h3 class="experience__role">Frontend Developer (Freelance)</h3>
+      <p class="experience__company">Self-Employed</p>
+      <p class="experience__duration">Jul 2024 – Present</p> 
+      <p class="experience__description">
+        Designed and delivered responsive websites for clients,
+        focusing on performance, accessibility, and clean UI design.
+      </p>
+    </div>
+
+  </div>
+</section> -->
+<section class="experience section" id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+
+  <div class="experience__container bd-grid">
+
+    <!-- PEGA / Cognizant -->
+    <div class="experience__item">
+      <h3 class="experience__role">PEGA Developer / Web Developer Intern</h3>
+      <p class="experience__company">Cognizant</p>
+      <!-- <p class="experience__duration">Jan 2024 – Jun 2024</p> -->
+
+      <ul class="experience__list">
+        <li>- Worked on PEGA Smart Investigation (SI) framework supporting banking and payment investigations.</li>
+        <li>- Implemented exception handling logic for CBPR+ and PACS financial messages.</li>
+        <li>- Designed and configured PEGA rules including Flows, Decision Rules, Data Transforms, and Activities.</li>
+        <li>- Integrated REST APIs to enable seamless communication between PEGA and external systems.</li>
+        <li>- Automated manual tasks, significantly reducing operational effort.</li>
+        <li>- Maintained CI/CD pipelines using Pega Deployment Manager (PDM).</li>
+        <li>- Gained exposure to Microsoft Azure environments for application deployment and support.</li>
+        <li>- Delivered assigned tasks on time while adhering to PEGA best practices and quality standards.</li>
+        <li>- Developed a BFS Credit Card Generator as a real-time project (MFRP).</li>
+      </ul>
+    </div>
+
+    <!-- Full Stack / Training -->
+    <div class="experience__item">
+      <h3 class="experience__role">Full Stack Developer (Training & Projects)</h3>
+      <p class="experience__company">Cognizant</p>
+      <p class="experience__duration">Dec 2023 – Present</p>
+
+      <ul class="experience__list">
+        <li>Trained in frontend and backend development using modern web technologies.</li>
+        <li>Built responsive user interfaces using HTML, CSS, and JavaScript.</li>
+        <li>Developed backend services using Spring Boot.</li>
+        <li>Designed and managed relational databases using SQL.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+            <!-- ===== WORK === -->
+            <section class="work section" id="work">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="work__container bd-grid">
+       <div class="work__item">
+  <h3 class="work__title">Object Detection Using Python (OpenCV)</h3>
+  <p class="work__description">
+    Implemented an object detection system using Python and OpenCV to
+    locate and identify objects in images and videos using computer
+    vision techniques.
+  </p>
+  <p class="work__tech">Python • OpenCV • Jupyter Notebook</p>
+</div>
+
+<div class="work__item">
+  <h3 class="work__title">Brain Tumor Detection from MRI Images (CNN)</h3>
+  <p class="work__description">
+    Developed a deep learning-based web application to detect and
+    classify brain tumors from MRI images using an 18-layer CNN model.
+    Users can upload MRI images to identify tumor type and view accuracy.
+  </p>
+  <p class="work__tech">Python • CNN • TensorFlow • Anaconda</p>
+
+  <div class="work__links">
+    <a href="https://github.com/Enablefist/Brain_Tumor_detection"
+       target="_blank"
+       class="work__btn">
+       GitHub
+    </a>
+  </div>
+</div>
+
+<div class="work__item">
+  <h3 class="work__title">Course Registration System</h3>
+  <p class="work__description">
+    Built a web-based application enabling students to register and
+    de-enroll from courses, while admins manage students and course data.
+    Implemented role-based access for admins and students.
+  </p>
+  <p class="work__tech">
+    Java • Spring Boot • Maven • JSP • CSS • Bootstrap • JavaScript • MySQL
+  </p>
+
+  <div class="work__links">
+    <a href="https://github.com/Enablefist/course_registration_system"
+       target="_blank"
+       class="work__btn">
+       GitHub
+    </a>
+  </div>
+   <!-- <div class="work__item">
+      <h3 class="work__title">Course Registration System</h3>
+      <p class="work__description">
+        Developed a CRUD-based web application that allows students to
+        register, update, and delete course information efficiently.
+      </p>
+      <p class="work__tech">HTML • CSS • JavaScript</p>
+      <div class="work__links">
+    <a href="https://github.com/Enablefist/course_registration_system"
+       target="_blank"
+       class="work__btn">
+       GitHub
+    </a>
+
+    <a href="https://your-live-demo-link.com"
+       target="_blank"
+       class="work__btn work__btn--outline">
+       Live Demo
+    </a>
+  </div>
+    </div>
+    
+
+    <div class="work__item">
+      <h3 class="work__title">Portfolio Website</h3>
+      <p class="work__description">
+        Designed a responsive personal portfolio to showcase skills,
+        projects, and contact information with a clean UI.
+      </p>
+      <p class="work__tech">HTML • CSS • JavaScript</p>
+    </div>
+
+    <div class="work__item">
+      <h3 class="work__title">To-Do Application</h3>
+      <p class="work__description">
+        Built a task management application with add, update, and delete
+        functionality using JavaScript.
+      </p>
+      <p class="work__tech">JavaScript • Local Storage</p>
+        <div class="work__links">
+    <a href="https://github.com/yourusername/course-registration"
+       target="_blank"
+       class="work__btn">
+       GitHub
+    </a>
+
+    <a href="https://your-live-demo-link.com"
+       target="_blank"
+       class="work__btn work__btn--outline">
+       Live Demo -->
+</div>
+
+<div class="work__item">
+  <h3 class="work__title">BFS Credit Card Generator</h3>
+  <p class="work__description">
+    Developed a PEGA-based application that generates suitable credit
+    card offerings based on user credit scores, aligning financial
+    products with customer eligibility and risk profiles.
+  </p>
+  <p class="work__tech">PEGA • Case Management • BFS Domain</p>
+</div>
+
+    </a>
+  </div>
+    </div>
+  </div>
+</section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                   <form action="https://formsubmit.co/yourmail@gmail.com" method="POST" class="contact__form">
+
+  <input type="hidden" name="_subject" value="New Portfolio Contact">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+
+  <input type="text" name="name" placeholder="Name" class="contact__input" required>
+  <input type="email" name="email" placeholder="Email" class="contact__input" required>
+  <textarea name="message" rows="6" placeholder="Message" class="contact__input" required></textarea>
+
+  <input type="submit" value="Send" class="contact__button button">
+</form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">paineni sai Dinesh</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
