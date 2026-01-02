@@ -748,4 +748,46 @@ img {
 .work__btn--outline {
   color: #f8f4f4;
 }
+.contact__container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.contact__card {
+  background: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact__name {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.contact__info {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+}
+
+.contact__info i {
+  margin-right: 8px;
+  color: #4070f4;
+  font-size: 1.2rem;
+}
+
+.contact__info a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.contact__info a:hover {
+  color: #4070f4;
+}
 
